@@ -1,0 +1,45 @@
+[global]
+    monitor = 0
+    follow = mouse
+
+    width = (350, 350)
+    height = (0, 100)
+
+    origin = top-right
+    offset = (15, 15)
+
+    background = "#1e1e1e"
+    foreground = "#ffffff"
+
+    font = Iosevka Nerd Font 15
+
+    frame_width = 1
+    frame_color = "#000000"
+    corner_radius = 0
+    padding = 12
+    horizontal_padding = 12
+    text_icon_padding = 8
+
+    frame_width = 1
+
+    separator_height = 2
+
+    markup = full
+    format = "<b>%s</b>\n%b"
+
+    timeout = 5
+
+    stack_duplicates = true
+    hide_duplicate_count = true
+    
+[urgency_low]
+    timeout = 3
+    highlight = "#b6b6b6"
+
+[urgency_normal]
+    timeout = 5
+    highlight = "#b6b6b6"
+
+[urgency_critical]
+    timeout = 0
+    highlight = "#b6b6b6"

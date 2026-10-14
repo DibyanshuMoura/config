@@ -1,0 +1,60 @@
+* {
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+  padding: 0;
+  font-family: "Iosevka Nerd Font";
+  font-size: 20px;
+}
+
+window#waybar {
+  background: #0d0d0d;                 /* Matches your custom near-black base */
+  color: #ffffff;                      /* Pure white for base default text */
+}
+
+tooltip {
+  background: #0d0d0d;                 /* Near-black tooltip window canvas */
+  color: #ffffff;
+  border: 1px solid #8d8d8d;           /* Border matched to your custom functional grey */
+}
+
+#clock,
+#cpu,
+#memory,
+#battery,
+#network,
+#pulseaudio,
+#bluetooth {
+  margin: 2px 2px 0 0;
+  padding: 2px 10px;
+  color: #b6b6b6;                      /* Muted string-grey text layer for text blocks */
+}
+
+#workspaces button {
+  background: transparent;
+  color: #a4a4a4;                      /* Variable-grey text for unfocused layout states */
+  padding: 0 3px;
+}
+
+#workspaces button.focused {
+  color: #ffffff;                      /* Pure white highlights for focused workspace pills */
+}
+
+#workspaces button:hover {
+  box-shadow: inherit;
+  text-shadow: inherit;
+}
+
+#battery.warning,
+#battery.critical,
+#network.disconnected {
+  color: #ffffff;                      /* Keeps warning indicators distinct in pure white */
+}
+
+#memory:hover,
+#network:hover,
+#pulseaudio:hover,
+#bluetooth:hover {
+  color: #ffffff;                      /* Highlights active elements to pure white on hover */
+}
+

@@ -1,0 +1,10 @@
+configuration {
+    show-icons: true;
+    kb-row-up: "Alt+k";
+    kb-row-down: "Alt+j";
+    hover-select: true;
+    me-select-entry: "";
+    me-accept-entry: [ "MousePrimary", "!MousePrimary" ];
+}
+
+@theme "myTheme"

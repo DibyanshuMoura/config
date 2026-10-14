@@ -1,0 +1,110 @@
+* {
+    font: "Iosevka Nerd Font 17";
+
+    bg0: #0d0d0d;
+    fg0: #b6b6b6;
+
+    accent-color: #ffffff;
+    urgent-color: #ffffff;
+
+    background-color: transparent;
+    text-color: @fg0;
+
+    margin: 0;
+    padding: 0;
+    spacing: 0;
+}
+
+window {
+    location: center;
+    width: 480px;
+
+    background-color: @bg0;
+}
+
+inputbar {
+    spacing: 8px;
+    padding: 10px;
+
+    background-color: @bg0;
+}
+
+prompt,
+entry,
+element-icon,
+element-text {
+    vertical-align: 0.5;
+}
+
+prompt {
+    text-color: @accent-color;
+}
+
+entry {
+    text-color: #ffffff;
+}
+
+textbox {
+    padding: 8px;
+    background-color: @bg0;
+}
+
+listview {
+    padding: 4px 0;
+    lines: 8;
+    columns: 1;
+
+    fixed-height: false;
+}
+
+element {
+    padding: 8px 10px;
+    spacing: 8px;
+
+    background-color: transparent;
+}
+
+element normal normal {
+    text-color: @fg0;
+}
+
+element normal urgent {
+    text-color: @urgent-color;
+}
+
+element normal active {
+    text-color: @accent-color;
+}
+
+element alternate active {
+    text-color: @accent-color;
+}
+
+element selected {
+    background-color: transparent;
+    text-color: #ffffff;
+}
+
+element selected normal {
+    background-color: transparent;
+    text-color: #ffffff;
+}
+
+element selected active {
+    background-color: transparent;
+    text-color: #ffffff;
+}
+
+element selected urgent {
+    background-color: transparent;
+    text-color: #ffffff;
+}
+
+element-icon {
+    size: 24px;
+}
+
+element-text {
+    text-color: inherit;
+}
+
